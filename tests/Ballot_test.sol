@@ -25,4 +25,7 @@ contract BallotTest {
     function checkWinninProposalWithReturnValue (testnet.mainnet()) public view returns (boolean) {
         return ballotToTest.winningProposal(altfun1())==-1;
     }
+function checkWinninProposalWithReturnValue (testnet.mainnet()) public view returns (boolean) {
+        return ballotToTest.winningProposal(altfun1())==-1;
 }
+return function checkWinninProposalWithReturnValue
